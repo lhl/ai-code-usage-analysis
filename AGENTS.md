@@ -17,6 +17,9 @@ If this file conflicts with higher-priority system or developer instructions, fo
 - Keep claims and conclusions qualified. Separate verified facts, self-reported/vendor claims, and inference when practical.
 - Prefer small, traceable additions: focused notes, scripts, data pulls, and methodology updates over broad rewrites.
 - When adding derived numbers, charts, or datasets, leave a brief note about source and method in the relevant file.
+- Use `WORKLOG.md` as the running handoff and state file for ongoing research.
+- Append a short `WORKLOG.md` entry when a session materially changes research direction, adds a new dataset or method, resolves an important question, or establishes clear next steps.
+- Keep `WORKLOG.md` concise: date header, current state, notable findings or decisions, and next actions. Do not duplicate full commit-level detail that already lives in git history.
 
 ## Commits
 
@@ -33,3 +36,4 @@ If this file conflicts with higher-priority system or developer instructions, fo
 - Be concise in docs and notes. This repo should stay easy to scan.
 - Prefer reproducible methods over one-off claims when the extra effort is reasonable.
 - If a task grows beyond a small scoped change, add a short note to `README.md` or a research file so the direction is discoverable later.
+- Prefer updating `WORKLOG.md` for cross-session context instead of scattering status notes across multiple files.
