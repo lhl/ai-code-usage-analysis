@@ -53,3 +53,10 @@ Keep entries short and factual. Git history remains the source of truth for file
 - Added `sources/` conventions and a fetch-order reference document under `docs/REFERENCE-webfetch.md`.
 - The repo now has an explicit fetch preference order: `curl` -> `rc-html-extract` -> embedded HTML/JSON inspection -> `playwright-cli` when rendering is actually needed.
 - The fetch guide reflects tools confirmed on this machine: `curl`, `rc-html-extract`, `pandoc`, and `playwright-cli`.
+
+### SemiAnalysis source pass
+
+- Captured the SemiAnalysis post `Claude Code is the Inflection Point` under `sources/captured/semianalysis-2026-02-05-claude-code-is-the-inflection-point/`.
+- The raw HTML exposed embedded metadata and article body HTML, so Playwright was not needed.
+- The accessible capture appears partial: metadata reports a 4,988-word paid post, but the embedded accessible body ends at the heading `Anthropic's Funding and Surge: Why is Anthropic Winning?`.
+- Added a partial-source analysis note under `research/` and an extracted claim batch under `claims/extracted/`.

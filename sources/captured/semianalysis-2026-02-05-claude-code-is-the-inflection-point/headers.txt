@@ -1,0 +1,27 @@
+HTTP/2 103 
+link: <https://substackcdn.com>; rel=preconnect
+
+HTTP/2 200 
+date: Fri, 06 Mar 2026 16:45:13 GMT
+content-type: text/html; charset=utf-8
+server: cloudflare
+cf-ray: 9d82d4611fa2b33e-NRT
+cf-cache-status: HIT
+age: 10962
+cache-control: no-cache
+etag: W/"50ea0-ryC41fcXUiz5cD8RfrDo0EhHsYk"
+link: <https://substackcdn.com>; rel=preconnect
+set-cookie: ab_experiment_sampled=%22false%22; Max-Age=31536000; Domain=newsletter.semianalysis.com; Path=/; Expires=Sat, 06 Mar 2027 16:45:13 GMT; HttpOnly; Secure; SameSite=Lax
+set-cookie: ab_testing_id=%225aec8cf8-faf6-48b0-ab39-d7ac361eeb51%22; Max-Age=31536000; Domain=newsletter.semianalysis.com; Path=/; Expires=Sat, 06 Mar 2027 16:45:13 GMT; HttpOnly; Secure; SameSite=Lax
+set-cookie: __cf_bm=TZcWghJJpKzoUabRwJMg5bbSKQZL6e9Wlts20Gh_6j8-1772815513-1.0.1.1-j9UTQu5F6m34dmju_Bb912JYQyvuFxg5GIYRhoy17S4RtHZjUIvaecM2KCCnb5Vu_awM0xpzMG6tAUqRqMgtzOSS91vunXjCcc3N0njAMPU; path=/; expires=Fri, 06-Mar-26 17:15:13 GMT; domain=.newsletter.semianalysis.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+content-security-policy: frame-ancestors 'self' https://*.substack.com https://substack.com
+x-cluster: substack
+x-deploy: acbe59c0a1
+x-powered-by: Express
+x-served-by: Substack
+x-service: web
+x-sub: semianalysis
+alt-svc: h3=":443"; ma=86400
+

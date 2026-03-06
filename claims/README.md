@@ -26,6 +26,7 @@ This keeps the early-stage workflow easy to read and diff while preserving enoug
 - `claims/extracted/chatgpt-pro-deepresearch.md`
 - `claims/extracted/claude-opus-4.6-deepresearch.md`
 - `claims/extracted/claude-opus-4.6.md`
+- `claims/extracted/semianalysis-claude-code-is-the-inflection-point.md`
 
 ## File naming
 
