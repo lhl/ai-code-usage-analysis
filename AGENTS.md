@@ -21,6 +21,15 @@ If this file conflicts with higher-priority system or developer instructions, fo
 - Append a short `WORKLOG.md` entry when a session materially changes research direction, adds a new dataset or method, resolves an important question, or establishes clear next steps.
 - Keep `WORKLOG.md` concise: date header, current state, notable findings or decisions, and next actions. Do not duplicate full commit-level detail that already lives in git history.
 
+## Source Capture
+
+- Save fetched source bundles under `sources/captured/<source-id>/`.
+- Default fetch order: `curl` headers/raw HTML first, then `rc-html-extract`, then inspect embedded HTML/JSON, then escalate to `playwright-cli` only if the accessible content requires rendering.
+- Save the raw capture before cleanup or conversion whenever practical.
+- If the accessible page is partial, paywalled, login-gated, or geoblocked, record that in source metadata rather than trying to hide the limitation.
+- Use `sources/README.md` for bundle layout and `docs/REFERENCE-webfetch.md` for command examples and fetch-order details.
+- Once a source is worth keeping, add follow-on outputs in `research/` and `claims/extracted/` rather than leaving the repo with only raw captures.
+
 ## Claim Tracking
 
 - Use `claims/` for structured claim records and `research/` for narrative notes and synthesis.

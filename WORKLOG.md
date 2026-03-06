@@ -47,3 +47,9 @@ Keep entries short and factual. Git history remains the source of truth for file
 - Attach more direct primary URLs to high-value claims that currently point to local notes or chat logs.
 - Decide which extracted claims should be normalized or merged into a cross-note synthesis layer.
 - Start the first actual data-backed research task, likely with AIDev or AIDev-pop.
+
+### Source capture workflow
+
+- Added `sources/` conventions and a fetch-order reference document under `docs/REFERENCE-webfetch.md`.
+- The repo now has an explicit fetch preference order: `curl` -> `rc-html-extract` -> embedded HTML/JSON inspection -> `playwright-cli` when rendering is actually needed.
+- The fetch guide reflects tools confirmed on this machine: `curl`, `rc-html-extract`, `pandoc`, and `playwright-cli`.
