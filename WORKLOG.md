@@ -35,3 +35,15 @@ Keep entries short and factual. Git history remains the source of truth for file
 
 - Added a `claims/` workflow with source-batch Markdown files, a schema README, and a template for future extraction passes.
 - Claims are now meant to live in `claims/`, while `research/` remains the place for narrative synthesis and longer analysis.
+
+### Extraction pass
+
+- Added initial claim batches for all four current research notes under `claims/extracted/`.
+- The first pass favors provenance and scanability over aggressive deduplication; similar claims may appear in more than one batch.
+- Some rows currently use the source note itself as the best reference URL when a stronger per-claim primary link has not yet been attached.
+
+### Next actions
+
+- Attach more direct primary URLs to high-value claims that currently point to local notes or chat logs.
+- Decide which extracted claims should be normalized or merged into a cross-note synthesis layer.
+- Start the first actual data-backed research task, likely with AIDev or AIDev-pop.

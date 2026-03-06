@@ -12,3 +12,5 @@ Short note about the source and the extraction scope.
 | claim_id | added | kind | status | claim | best_reference_url | notes |
 |---|---|---|---|---|---|---|
 | example-001 | YYYY-MM-DD | fact | open | Replace with a concise claim. | https://example.com/reference | Add caveat or scope note. |
+
+Use `local-note-only` for `source_note_url` or `best_reference_url` when the local note has no stable upstream URL recorded yet.

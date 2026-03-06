@@ -20,6 +20,13 @@ This keeps the early-stage workflow easy to read and diff while preserving enoug
 - `claims/TEMPLATE.md`: template for new extraction batches
 - `claims/extracted/`: extracted claim batches keyed to source notes
 
+## Current batches
+
+- `claims/extracted/chatgpt-5.4.md`
+- `claims/extracted/chatgpt-pro-deepresearch.md`
+- `claims/extracted/claude-opus-4.6-deepresearch.md`
+- `claims/extracted/claude-opus-4.6.md`
+
 ## File naming
 
 - Match the source note stem where practical.
@@ -34,6 +41,8 @@ Required fields:
 - `extracted_on`
 - `extraction_type`
 
+If a local note has no stable upstream URL recorded, use `local-note-only` for `source_note_url` and upgrade it later if a better provenance link becomes available.
+
 ## Claim table schema
 
 Each batch file should contain a table with these columns:
@@ -45,6 +54,8 @@ Each batch file should contain a table with these columns:
 - `claim`: concise statement of the claim
 - `best_reference_url`: best available URL for the claim right now
 - `notes`: short caveat, scope note, or extraction comment
+
+If a claim currently only traces to a local note, `best_reference_url` may also be `local-note-only` during early extraction.
 
 ## Working rules
 
