@@ -40,7 +40,7 @@ If this file conflicts with higher-priority system or developer instructions, fo
 
 ## Commits
 
-- Commit on completed logical workgroups. Do not commit every file touch, and do not wait until a long session ends if a coherent unit is already done.
+- Commit on completed logical workgroups. Do not commit every file touch, but once a coherent unit is done and reviewed, commit it promptly instead of carrying finished work uncommitted across turns or sessions.
 - Keep commits atomic: group related changes together and separate unrelated work.
 - Stage files explicitly. Never use `git add .`, `git add -A`, or `git commit -a`.
 - Review staged files before committing with `git diff --staged --name-only` and `git diff --staged`.
