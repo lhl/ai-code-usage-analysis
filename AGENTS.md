@@ -21,6 +21,14 @@ If this file conflicts with higher-priority system or developer instructions, fo
 - Append a short `WORKLOG.md` entry when a session materially changes research direction, adds a new dataset or method, resolves an important question, or establishes clear next steps.
 - Keep `WORKLOG.md` concise: date header, current state, notable findings or decisions, and next actions. Do not duplicate full commit-level detail that already lives in git history.
 
+## Claim Tracking
+
+- Use `claims/` for structured claim records and `research/` for narrative notes and synthesis.
+- Prefer source-batch claim files during early exploration: one Markdown file per source note or source document.
+- Each extracted claim row should include `claim_id`, `added`, `kind`, `status`, `claim`, `best_reference_url`, and `notes`.
+- Preserve provenance and avoid premature deduplication. It is acceptable for similar claims to appear in multiple source-batch files when they come from different notes.
+- If a claim’s status changes after additional checking, update the existing claim row rather than scattering near-duplicates across the repo.
+
 ## Commits
 
 - Commit on completed logical workgroups. Do not commit every file touch, and do not wait until a long session ends if a coherent unit is already done.

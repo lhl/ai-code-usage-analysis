@@ -16,7 +16,7 @@ Keep entries short and factual. Git history remains the source of truth for file
 
 ### Current state
 
-- Repo initialized with a top-level [README.md](/home/lhl/github/lhl/ai-code-usage-analysis/README.md) and four exploratory notes under [research/](/home/lhl/github/lhl/ai-code-usage-analysis/research).
+- Repo initialized with a top-level [README.md](README.md) and four exploratory notes under [research/](research/).
 - Current emphasis is framing the measurement problem around visible agent activity, hidden AI usage, and software creation outside GitHub.
 
 ### Easy research goals
@@ -29,4 +29,9 @@ Keep entries short and factual. Git history remains the source of truth for file
 
 - Review AIDev and AIDev-pop as the first structured datasets to analyze.
 - Draft a small research backlog covering review burden, maintenance cost, concentration, and hidden-use estimation.
-- Decide whether to track work by dated notes in [research/](/home/lhl/github/lhl/ai-code-usage-analysis/research) alone or also maintain a standing methodology/backlog file.
+- Decide whether to track work by dated notes in [research/](research/) alone or also maintain a standing methodology/backlog file.
+
+### Workflow changes
+
+- Added a `claims/` workflow with source-batch Markdown files, a schema README, and a template for future extraction passes.
+- Claims are now meant to live in `claims/`, while `research/` remains the place for narrative synthesis and longer analysis.

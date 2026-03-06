@@ -40,6 +40,8 @@ The repo is early and currently contains exploratory research notes under [`rese
 - [`research/chatgpt-5.4.md`](research/chatgpt-5.4.md): critical review of common claims and a prioritization of the most promising original studies.
 - [`research/claude-opus-4.6-deepresearch.md`](research/claude-opus-4.6-deepresearch.md): claim-by-claim landscape review with emphasis on what is verified, overstated, or still unknown.
 - [`research/claude-opus-4.6.md`](research/claude-opus-4.6.md): practical research design notes, including possible data sources, sampling strategies, and non-GitHub measurement ideas.
+- [`claims/`](claims/): structured claim extraction batches intended to stay easy to diff now and easy to ingest into a database later.
+- [`WORKLOG.md`](WORKLOG.md): short cross-session handoff file tracking current focus, findings, and near-term next steps.
 
 ## Planned Work
 
