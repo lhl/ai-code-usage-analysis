@@ -1,6 +1,6 @@
-# AI Code Usage Analysis
+# AI Coding Measurement
 
-This repository is for ongoing research and analysis on AI coding adoption trends.
+This repository is for ongoing research on AI coding measurement: adoption, observability, and downstream effects.
 
 Current best synthesis: start with [`ANALYSIS.md`](ANALYSIS.md).
 

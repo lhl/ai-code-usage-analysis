@@ -1,4 +1,4 @@
-# AI Code Usage Analysis: Current Status
+# AI Coding Measurement: Current Status
 
 Last updated: 2026-03-07
 
