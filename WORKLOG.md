@@ -60,3 +60,14 @@ Keep entries short and factual. Git history remains the source of truth for file
 - The raw HTML exposed embedded metadata and article body HTML, so Playwright was not needed.
 - The accessible capture appears partial: metadata reports a 4,988-word paid post, but the embedded accessible body ends at the heading `Anthropic's Funding and Surge: Why is Anthropic Winning?`.
 - Added a partial-source analysis note under `research/` and an extracted claim batch under `claims/extracted/`.
+
+### Status synthesis
+
+- Added a root-level [`ANALYSIS.md`](ANALYSIS.md) as the standing top-level status report for the repo.
+- The synthesis reflects the current claim base rather than new outside research: visible GitHub agent activity is real, public traces are a lower bound, and non-GitHub software creation remains the biggest under-measured layer.
+- README now links to [`ANALYSIS.md`](ANALYSIS.md) near the top so new readers can start with the current best take.
+
+### Next actions
+
+- Replace high-value local/chat claim references with direct primary URLs.
+- Start original measurement work on visible-agent baselines, review burden, and non-GitHub proxy signals.

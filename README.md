@@ -2,6 +2,8 @@
 
 This repository is for ongoing research and analysis on AI coding adoption trends.
 
+Current best synthesis: start with [`ANALYSIS.md`](ANALYSIS.md).
+
 The core question is simple: how much software is now being created with AI, by whom, through which workflows, and with what downstream effects on review, quality, and maintenance?
 
 The hard part is measurement. Public GitHub activity captures only a narrow slice of AI-assisted software creation. A large share of AI use is invisible in git metadata, and another large share may be happening outside traditional software development workflows entirely.
@@ -36,6 +38,7 @@ Based on the research notes in this repo, a few themes already look durable:
 
 The repo is early and currently contains exploratory research notes under [`research/`](research/):
 
+- [`ANALYSIS.md`](ANALYSIS.md): current top-level status report synthesizing the repo's best current take and main open questions.
 - [`research/chatgpt-pro-deepresearch.md`](research/chatgpt-pro-deepresearch.md): detailed synthesis of public GitHub agent activity, professional adoption signals, and measurement caveats.
 - [`research/chatgpt-5.4.md`](research/chatgpt-5.4.md): critical review of common claims and a prioritization of the most promising original studies.
 - [`research/claude-opus-4.6-deepresearch.md`](research/claude-opus-4.6-deepresearch.md): claim-by-claim landscape review with emphasis on what is verified, overstated, or still unknown.
